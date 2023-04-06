@@ -1,0 +1,62 @@
+.not-found-loader-bg-container {
+  height: 100vh;
+  width: 90%;
+  max-width: 1000px;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.not-found-bg-container {
+  height: 100vh;
+  width: 90%;
+  margin: auto;
+  max-width: 1000px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.not-found-image {
+  width: 90%;
+  max-width: 400px;
+}
+
+.not-found-text {
+  color: #323f4b;
+  font-size: 16px;
+  text-align: center;
+  margin: 0px;
+  padding: 30px 20px 0px 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .not-found-text {
+    font-size: 18px;
+  }
+}
+
+.not-found-button {
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 14px;
+  border: none;
+  width: 100%;
+  max-width: 130px;
+  cursor: pointer;
+  outline: none;
+  margin: 30px 0px 30px 0px;
+  align-self: center;
+  padding: 8px 14px 8px 14px;
+  background-color: #0b69ff;
+  border-radius: 8px;
+}
+
+@media screen and (min-width: 768px) {
+  .not-found-button {
+    font-size: 16px;
+  }
+}

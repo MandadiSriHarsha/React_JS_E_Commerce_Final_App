@@ -1,0 +1,132 @@
+.navbar {
+  width: 100%;
+}
+
+.navbar-mobile-header-card {
+  width: 90%;
+  margin: auto;
+  padding: 30px 0px 20px 0px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar-website-logo {
+  width: 110px;
+  margin: 0px 0px 0px 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .navbar-website-logo {
+    width: 120px;
+  }
+}
+
+.link-item {
+  text-decoration: none;
+}
+
+.navbar-mobile-logout-button {
+  border: none;
+  background: transparent;
+}
+
+.navbar-mobile-image {
+  height: 25px;
+  width: 25px;
+}
+
+.navbar-mobile-content-card {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 100%;
+  padding: 20px 10px 20px 10px;
+  background-color: #e6f6ff;
+}
+
+.navbar-mobile-content-image {
+  height: 25px;
+  width: 25px;
+}
+
+@media screen and (min-width: 768px) {
+  .navbar-mobile-header-card {
+    display: none;
+  }
+  .navbar-mobile-content-card {
+    display: none;
+  }
+}
+
+.navbar-desktop-card {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 30px 25px 25px 25px;
+  border-bottom: 1px solid #bfdbfe;
+  margin: auto;
+}
+
+@media screen and (max-width: 767px) {
+  .navbar-desktop-card {
+    display: none;
+  }
+}
+
+.link-desktop-item {
+  text-decoration: none;
+  color: #000000;
+  font-size: 16px;
+  font-weight: 500;
+  padding: 0px 0px 0px 0px;
+  margin: 0px 25px 0px 0px;
+  cursor: pointer;
+}
+
+.desktop-logout-button {
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  outline: none;
+  padding: 8px 15px 8px 15px;
+  margin: 0px 35px 0px 10px;
+  color: #ffffff;
+  background-color: #0967d2;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.navbar-cart-link {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-decoration: none;
+}
+
+.cart-span {
+  margin: 0px 0px 0px 15px;
+  padding: 5px 8px 5px 8px;
+  font-size: 14px;
+  font-weight: bold;
+  color: #0967d2;
+  background-color: #ffffff;
+  border-radius: 40px;
+}
+
+@media screen and (min-width: 768px) {
+  .cart-span {
+    background-color: #bfdbfe;
+    margin: 0px 0px 0px 0px 0px;
+  }
+}
+
+.navbar-desktop-items-card {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
